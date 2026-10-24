@@ -153,3 +153,29 @@ python src/chat.py
 ## Entregável
 
 Repositório público no GitHub contendo todo o código-fonte e README com instruções claras de execução do projeto.
+
+## Instruções de execução:
+
+1. Subir o banco de dados:
+
+```
+docker compose up -d
+```
+
+2. Instale as dependencias necessárias:
+
+```
+pip install -r requirements.txt
+```
+
+3. Executar ingestão do PDF:
+
+```
+python src/ingest.py
+```
+
+4. Rodar o chat:
+
+```
+python src/chat.py
+```
