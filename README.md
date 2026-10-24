@@ -155,6 +155,7 @@ python src/chat.py
 Repositório público no GitHub contendo todo o código-fonte e README com instruções claras de execução do projeto.
 
 ## Instruções de execução:
+0. Preencha suas informações na variável de ambiente (.env)
 
 1. Subir o banco de dados:
 
